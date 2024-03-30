@@ -1,0 +1,139 @@
+nav{
+    background-color: #ff9638;
+    
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    
+}
+#logo{
+    width: 40%;
+    padding-left: 5%;
+}
+#navli{
+    text-align: right;
+    width:50%;
+    padding-right: 10%;
+    margin-top: 10px;
+    font-size: larger;
+}
+nav ul li{
+    display: inline;
+    padding-left: 2%;
+       
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+}
+@media screen and (max-width:850px) {
+ 
+    nav ul {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-icon:before {
+        content: "\2630"; 
+        font-size: 24px;
+        color:white;
+        cursor: pointer;
+    }
+
+    .menu-icon.active:before {
+        content: "\2715"; 
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 0;
+        text-align: center;
+       
+        margin-top: 40px;
+        margin-left: 20%;
+        
+      padding-right: 0px;
+        width: 33%;
+        z-index: 1;
+       
+    }
+
+    .menu.active {
+        display: block;
+        
+    }
+
+    .menu.active li {
+        display: block;
+        padding: 10px 0;
+        background-color:#ff9638;
+        
+        
+        
+      
+    }
+
+    .menu.active a {
+        color:white;
+        font-size: larger;
+        text-decoration: none;
+        width: 100%;
+        padding: 12px 20%;
+        
+    }
+    .menu.active a.one{
+        padding: 12px 40%;
+        
+    }
+    .menu.active a:hover{
+        background-color: #fba152;
+    } 
+    nav{
+        background-color: rgb(3, 29, 11);
+    }  
+}
+@media screen and (max-width:600px) {
+   
+    .menu.active a{
+        padding: 12px 18%;
+    }
+    .menu.active a.one{
+        padding: 12px 40%;
+        
+    }
+    .menu{
+        margin-left: 15%;
+        width: 35%;
+    }
+    nav{
+        background-color: rgb(3, 29, 11);
+    }
+}
+@media screen and (max-width:520px){
+    nav{
+        background-color: rgb(3, 29, 11);
+    }
+    .menu{
+        margin-left: 10%;
+        width: 40%;
+    }
+}
+@media screen and (max-width:480px){
+    nav{
+        background-color: rgb(29, 19, 3);
+    }
+    .menu{
+        margin-left: 7%;
+        width: 44%;         
+    }
+}
+

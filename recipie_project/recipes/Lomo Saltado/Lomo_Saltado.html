@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../recipe.css">
+    <link rel="stylesheet" href="../../footer.css">
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            var menuIcon = document.querySelector('.menu-icon');
+
+            menu.classList.toggle('active');
+            menuIcon.classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="../../logo1.png" alt="">
+        </div>
+        <div id="navli">
+            <div class="menu-icon" onclick="toggleMenu()"></div>
+            <ul class="menu">
+                <li><a class="one" href="../../index.html">Home</a></li>
+                <li><a class="one"  href="../../about.html">About</a></li>
+                <li><a class="one" href="../../recipe.html">Recipe</a></li>
+                <li><a href="../../contact.html">Contact Us</a></li>
+            </ul>
+</div>
+    </nav>
+    <main>
+        <div id="recipe">
+        <div id="image">
+            <h1> Lomo Saltado</h1>
+        <img src="images/IMGa.jpg" alt="Lomo Saltado">
+        
+        </div>
+            <div id="ingridients">
+            <div class="grid">
+                <div class="icon">
+                <i  class="fas fa-bars"></i>
+                <h2>Ingridients</h2></div>
+                <ul>
+                    <li><i class="fas fa-check-square"></i> Beef sirloin steak, thinly sliced</li>
+                    <li><i class="fas fa-check-square"></i>Onions, tomatoes, and ají amarillo peppers (optional), all julienned</li>
+                    <li><i class="fas fa-check-square"></i>Soy sauce, vinegar, and beef broth</li>
+                    <li><i class="fas fa-check-square"></i>Ginger, garlic, cumin, and oregano</li>
+                    <li><i class="fas fa-check-square"></i>French fries</li>
+                    <li><i class="fas fa-check-square"></i>Cilantro, chopped, for garnish</li>
+                    
+    .         </ul>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                <i class="fas fa-exclamation-circle"></i>
+                <h2>Nutrition</h2></div>
+                <div id="list">
+                   
+                    <ul >
+                           
+                        <li> calories</li>
+                        <li style="padding-left: 50%;">700</li>
+                        <li>fiber</li>
+                        <li style="padding-left: 50%;">10g</li>
+                        <li>protein</li>
+                        <li style="padding-left: 50%;">45g</li>
+                        <li>fat</li>
+                        <li style="padding-left: 50%;">40g</li>
+                        
+                        <li style="border-bottom: none;"> carbohydrates</li>
+                        <li style="padding-left: 50%; border-bottom: none;">50g-60g</li></ul>
+                </div>
+            
+            </div>
+        </div>
+        </div>
+        <div>
+            <h1 style=" margin-top:40px; font-size: 60px; color: #ff9638; text-align: center; letter-spacing: 0.1em;">How to Make It: </h1>
+            <div class="total_steps">
+                <div class=" steps">
+                <h2>step 1</h2>
+                <p>Marinate the beef in a mixture of soy sauce, vinegar, ginger, garlic, cumin, and oregano.</p>
+                    </div>
+                    <div>
+                        <img  src="images/IMGb.jpg" alt="Marinated beef">
+                    </div>
+            </div>
+            <div class="total_steps">
+                <div>
+                    <img  src="images/IMGc.jpg" alt="Stir-fry beef">
+                </div>
+                <div class=" steps">
+                <h2>step 2</h2>
+                <p>Stir-fry the beef in batches until browned.</p>
+                </div>
+            </div>
+            <div class="total_steps">
+                <div class=" steps">
+                <h2>step 3</h2>
+                <p>Remove the beef and stir-fry the onions, tomatoes, and peppers. </p>
+                    </div>
+                    <div>
+                        <img  src="images/IMGd.jpg" alt="stir-fry the onions, tomatoes, and peppers">
+                    </div>
+            </div>
+            <div class="total_steps">
+                <div>
+                    <img  src="images/IMGe.jpg" alt="Beef">
+                </div>
+                <div class=" steps">
+                <h2>step 4</h2>
+                <p>Add the beef back to the pan along with the soy sauce mixture, beef broth, and French fries.</p>
+                    </div>
+            
+            </div>
+            <div class="total_steps">
+                <div class=" steps">
+                <h2>step 5</h2>
+                <p>Cook until the fries are softened and the sauce is thickened.</p>
+                    </div>
+                    <div>
+                        <img  src="images/IMGf.jpg" alt="lomo saltado">
+                    </div>
+            </div>
+            <div class="total_steps">
+                <div>
+                    <img  src="images/IMGg.jpg" alt="Garnish with cilantro">
+                </div>
+                <div class=" steps">
+                <h2>step 6</h2>
+                <p>Garnish with cilantro and serve with rice.</p>
+                    </div>
+        </div>
+    </main> 
+    <footer>
+        <div id="footer_group">
+            <div>
+                <h2>Subscribe</h2>
+                <p>Register for online cooking lessons with a exprianced and great chefs before it gets late </p>
+                    <button>Register</button>
+            </div>
+            <div>
+                <h2>Explore</h2>
+                <ul>
+                    <li><a href="">Browse All Recipe</a></li>
+                    <li><a href="">Latest Recipe</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div style="border: none;">
+                <h2>Contact</h2>
+                <ul>
+                <li> <i  class="fas fa-map-marker-alt"></i> 454 Haileslase avenue Street, Nairobi,Kenya</li>
+               
+                <li> <i class="fas fa-envelope"></i> <a href="mailto:123@gmail.com">recipe@gmail.com</a></li>
+                <li><i class="fas fa-phone"></i> +254 8345 6678</li>     </ul>         
+                
+            </div>
+        </div>
+        <div id="copyright">&copy;copyright 20244 Reserved</div>
+    </footer>
+</body> 
+</html>

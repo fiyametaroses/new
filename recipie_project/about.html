@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            var menuIcon = document.querySelector('.menu-icon');
+    
+            menu.classList.toggle('active');
+            menuIcon.classList.toggle('active');
+        }
+    </script>
+    <style>
+     body{
+        font-family: Arial, Helvetica, sans-serif; 
+        background-color: #f1f1f1;
+        overflow-x: hidden;
+
+    }
+    #background{
+        background-image: url(pexels-ella-olsson-1640777.jpg);
+        height: 500px;
+        background-size: cover;
+    }
+    #about{
+        margin:20px 10%;
+    }
+    #about h1{
+        color: #ff9836; text-align: 
+        center; font-size: 35px;
+    }
+    #about p{
+        line-height: 2em; text-align: center; font-size: 17px;
+    }
+    #about_chef{
+        margin-top: 100px;
+        margin-left: 7%;
+        margin-right: 6%;
+    }
+    #about_chef h1{
+        color: #ff9836;
+        font-size: 35px;
+       
+    }
+    #about_chef_grid{
+        display: flex;
+        
+        padding: 20px;
+        background-color:;
+    }
+    #about_chef_text{
+        width: 45%;
+        line-height: 2em;
+        margin-right: 3%;
+        font-size: 17px
+    }
+    #about_chef_img{
+        width: ;
+    }
+    main button{
+        background-color: #ff9836;
+        color: white;
+        padding: 12px 40px;
+        font-size: 18px;
+        margin-left: 40%;
+    }
+   @media screen and (max-width:760px) {
+    #about_chef_grid{
+        display: block;
+   }
+   #about_chef_text{
+    width: auto;
+   }
+}
+    </style>
+</head>
+
+        
+<body>
+    <nav>
+            <div id="logo">
+               <img src="logo1.png" alt="">
+            </div>
+            <div id="navli">
+                <div class="menu-icon" onclick="toggleMenu()"></div>
+                <ul class="menu">
+                    <li><a class="one" href="index.html">Home</a></li>
+                    <li><a class="one"  href="about.html">About</a></li>
+                    <li><a class="one" href="recipe.html">Recipe</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul></div></nav>
+                <main>
+                    
+                        <div id="background">
+
+                        </div>
+                        
+                            <div id="about">
+                                <h1 >welcome to Peruvian food recipe</h1>
+                            <p>
+                                 Explore our curated collection of authentic recipes, from zesty ceviche to savory anticuchos.
+                                  Immerse yourself in the diverse culinary traditions that reflect Peru's vibrant culture and 
+                                  rich history. Join us on a culinary journey filled with bold spices, fresh ingredients, and
+                                   unforgettable taste sensations. Discover the secrets behind iconic Peruvian dishes and
+                                    learn how to recreate them in your own kitchen. Let us be your guide to the tantalizing
+                                     world of Peruvian gastronomy. Get ready to savor the flavors, embrace the culture, 
+                                     and experience the culinary magic of Peru.</p>
+                                     <div>
+                                        <h1>About Chef Recipe</h1>
+                                        <p>Chefis Recipe is a culinary platform founded by a team of passionate chefs and food enthusiasts. Our goal is to provide a one-stop destination for culinary inspiration, education, and exploration. Whether you're a seasoned home cook or a beginner in the kitchen, Chefis Recipe is here to empower you with the knowledge and tools to create delicious meals that will impress your loved ones.
+
+                                        </p>
+                                       
+                                        <button>visit our site</button>
+                                     </div>
+                                    </div>
+                                    <div id="about_chef">
+                                    <h1> About Chef Rozina</h1>
+                                    <div id="about_chef_grid"> 
+                                        
+                            <div id="about_chef_text">
+                                
+                                <p>
+                                    Hi and welcome! I’m Mike, and this delicious website is my personal blog. I write,
+                                     I cook, and I take pictures of delicious food. I’m a food enthusiast with an 
+                                    appetite for almost anything. I love to cook different dishes, but we’re not strictly anything when 
+                                    it comes to what we eat. I love desserts, especially straight up salted dark chocolate. I try to cook 
+                                    things that are practical, interesting, and delicious. I adore noodles, curry, lentils,
+                                     and pasta. An excellent communicator, leader and problem solver, skilled in managing and developing staff.
+                                </p>
+                                    <h3>core skils</h3>
+                                    <ul style="display: grid;grid-template-columns: repeat(2,1fr);">
+                                        <li>eating   erew</li>
+                                        <li>eating erew</li>
+                                        <li>eating erew</li>
+                                        <li>eating erew</li>
+                                    </ul>
+                                  
+                            </div>
+                            <div id="about_chef_img">
+                                <img style="  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);" src="chef1.jpg" alt="">
+                                <img style="height: 450px; margin-bottom: 20px;" src="chef2.jpg" alt="">
+                            </div>
+                                    </div>
+                  
+                </main>
+                <footer>
+                    <div id="footer_group">
+                        <div>
+                            <h2>Subscribe</h2>
+                            <p>Register for online cooking lessons with a exprianced and great chefs before it gets late </p>
+                                <button>Register</button>
+                        </div>
+                        <div>
+                            <h2>Explore</h2>
+                            <ul>
+                                <li><a href="">Browse All Recipe</a></li>
+                                <li><a href="">Latest Recipe</a></li>
+                                <li><a href="">Terms and Conditions</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div style="border: none;">
+                            <h2>Contact</h2>
+                            <ul>
+                                <li> <i  class="fas fa-map-marker-alt"></i> 454 Haileslase avenue Street, Nairobi,Kenya</li>
+           
+                                <li> <i class="fas fa-envelope"></i> <a href="mailto:123@gmail.com">recipe@gmail.com</a></li>
+                                <li><i class="fas fa-phone"></i> +254 8345 6678</li>          </ul>         
+                            
+                        </div>
+                    </div>
+                    <div id="copyright">&copy;copyright 20244 Reserved</div>
+                </footer>
+                <script>
+                    window.embeddedChatbotConfig = {
+                    chatbotId: "3L22uUnkvCqlKqVqAAlcu",
+                    domain: "www.chatbase.co"
+                    }
+                    </script>
+                    <script
+                    src="https://www.chatbase.co/embed.min.js"
+                    chatbotId="3L22uUnkvCqlKqVqAAlcu"
+                    domain="www.chatbase.co"
+                    defer>
+                    </script>
+</body>
+</html>

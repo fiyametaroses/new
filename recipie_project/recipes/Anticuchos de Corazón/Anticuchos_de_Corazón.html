@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../recipe.css">
+    <link rel="stylesheet" href="../../footer.css">
+    <style>
+
+#image h1 {
+    font-size: 25px;
+}
+
+    </style>
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            var menuIcon = document.querySelector('.menu-icon');
+
+            menu.classList.toggle('active');
+            menuIcon.classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="../..logo1.png" alt="">
+        </div>
+        <div id="navli">
+            <div class="menu-icon" onclick="toggleMenu()"></div>
+            <ul class="menu">
+                <li><a class="one" href="../../index.html">Home</a></li>
+                <li><a class="one"  href="../../about.html">About</a></li>
+                <li><a class="one" href="../../recipe.html">Recipe</a></li>
+                <li><a href="../../contact.html">Contact Us</a></li>
+            </ul>
+</div>
+    </nav>
+    <main>
+        <div id="recipe">
+        <div id="image">
+            <h1> Anticuchos de Corazón (Grilled Beef Heart)</h1>
+        <img src="images/IMG1.jpg" alt="Grilled Beef Heart">
+        
+        </div>
+            <div id="ingridients">
+            <div class="grid">
+                <div class="icon">
+                <i  class="fas fa-bars"></i>
+                <h2>Ingridients</h2></div>
+                <ul>
+                    <li><i class="fas fa-check-square"></i>1 pound beef heart, trimmed and cut into 1-inch cubes</li>
+                    <li><i class="fas fa-check-square"></i>1/2 cup aji panca paste <li>
+                    <li><i class="fas fa-check-square"></i>1/4 cup red wine vinegar</li>
+                    <li><i class="fas fa-check-square"></i>3 tablespoons vegetable oil</li>
+                    <li><i class="fas fa-check-square"></i>4 cloves garlic, minced</li>
+                    <li><i class="fas fa-check-square"></i>1 teaspoon ground cumin</li>
+                    <li><i class="fas fa-check-square"></i>1/2 teaspoon oregano</li>
+                    <li><i class="fas fa-check-square"></i>Salt and freshly ground black pepper to taste</li>
+                    
+    .         </ul>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                <i class="fas fa-exclamation-circle"></i>
+                <h2>Nutrition</h2></div>
+                    <div id="list">
+                   
+                    <ul >
+                           
+                        <li> calories</li>
+                        <li style="padding-left: 50%;">102</li>
+                        <li>fiber</li>
+                        <li style="padding-left: 50%;">1g</li>
+                        <li>protein</li>
+                        <li style="padding-left: 50%;">21g</li>
+                        <li>fat</li>
+                        <li style="padding-left: 50%;">5g</li>
+                        
+                        <li style="border-bottom: none;"> carbohydrates</li>
+                        <li style="padding-left: 50%; border-bottom: none;">2g</li></ul>
+                </div>
+            
+            </div>
+        </div>
+        </div>
+        <div>
+            <h1 style=" margin-top:40px; font-size: 60px; color: #ff9638; text-align: center; letter-spacing: 0.1em;">How to Make It: </h1>
+            <div class="total_steps">
+                <div class=" steps">
+                <h2>step 1</h2>
+                <p>Marinate the beef heart: In a large bowl, whisk together the aji panca paste, vinegar, oil, garlic, cumin, oregano, salt, and pepper. Add the beef heart pieces and toss to coat evenly. <br> Cover the bowl and refrigerate for at least 3 hours, or preferably overnight, for the flavors to develop.</p>
+                    </div>
+                    <div>
+                        <img  src="images/IMG2.jpg" alt="Heart cubes">
+                    </div>
+            </div>
+            <div class="total_steps">
+                <div>
+                    <img  src="images/IMG3.jpg" alt="Barbecue">
+                </div>
+                <div class=" steps">
+                <h2>step 2</h2>
+                <p> Prepare the grill: Preheat your grill to medium-high heat. If using wooden skewers, soak them in water for at least 30 minutes to prevent burning.</p>
+                </div>
+            </div>
+            <div class="total_steps">
+                <div class=" steps">
+                <h2>step 3</h2>
+                <p> Assemble the skewers: Thread the marinated beef heart cubes onto the skewers.</p>
+                    </div>
+                    <div>
+                        <img  src="images/IMG4.jpg" alt="skewers">
+                    </div>
+            </div>
+            <div class="total_steps">
+                <div>
+                    <img  src="images/IMG5.jpg" alt="anticuchos">
+                </div>
+                <div class=" steps">
+                <h2>step 4</h2>
+                <p>Grill the anticuchos: Grill the skewers for 3-4 minutes per side, or until cooked through and slightly charred. Baste the skewers occasionally with the remaining marinade for added flavor.
+                </p>
+                    </div>
+            
+            </div>
+            <div class="total_steps">
+                <div class=" steps">
+                <h2>step 5</h2>
+                <p>Serve immediately: Enjoy your anticuchos de corazón with sides like grilled potatoes, corn on the cob, or aji Amarillo sauce for dipping.
+                </p>
+                    </div>
+                    <div>
+                        <img  src="images/IMG6.jpg" alt="anticuchos de corazón">
+                    </div>
+            </div>
+        </div>
+    </main> 
+    <footer>
+        <div id="footer_group">
+            <div>
+                <h2>Subscribe</h2>
+                <p>Register for online cooking lessons with a exprianced and great chefs before it gets late </p>
+                    <button>Register</button>
+            </div>
+            <div>
+                <h2>Explore</h2>
+                <ul>
+                    <li><a href="">Browse All Recipe</a></li>
+                    <li><a href="">Latest Recipe</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div style="border: none;">
+                <h2>Contact</h2>
+                <ul>
+                <li> <i  class="fas fa-map-marker-alt"></i> 454 Haileslase avenue Street, Nairobi,Kenya</li>
+               
+                <li> <i class="fas fa-envelope"></i> <a href="mailto:123@gmail.com">recipe@gmail.com</a></li>
+                <li><i class="fas fa-phone"></i> +254 8345 6678</li>     </ul>         
+                
+            </div>
+        </div>
+        <div id="copyright">&copy;copyright 20244 Reserved</div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+
+
+    body{
+        font-family: Arial, Helvetica, sans-serif; 
+        background-color: #f1f1f1;
+    }
+
+        #background{
+            background-image: url(pexels-ella-olsson-1640777.jpg);
+            height: 500px;
+          
+            background-size: cover;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin: 40px 8%;
+            grid-column-gap:3%;
+            background-color: white;
+        }
+        .relative {
+            box-shadow: 0 0 5px rgba(0,0, 0, 0.3);
+            margin-bottom: 20px;
+            position: relative;
+            transition: transform 0.2s ease; 
+           
+        }
+        .overlay{
+            color:rgb(255, 255, 255,0.8);
+            font-size: 20px;
+            text-align: right;
+            right: 0;
+            position: absolute;
+            
+        }
+        #grid img{
+            height: 300px;
+            width: 100%;
+
+            
+        }
+        #grid a{
+            text-decoration: none;
+            color: black;
+           
+        }
+        .relative:hover {
+             transform: translateY(-8px);
+        }
+        .recipe{
+            margin: 1px 6%;
+            padding-bottom: 20px;
+
+        }
+        .recipe h3{
+            color: #ff9638;
+            line-height: 0;
+        }
+        .recipe h2{
+            line-height: 1;
+            color: #ff9638;
+        }
+        .recipe p{
+            line-height: 1.1em;
+        }
+       
+        @media screen and (max-width:1280px) {
+ 
+   #grid{
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 10%;
+    margin-right: 10%;
+   }
+}
+@media screen and (max-width:950px) {
+    body{
+  
+} 
+#grid{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+}
+@media screen and (max-width: 760px) {
+    body {
+        
+    }
+
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr) !important;
+        margin-left: 15% !important;
+        margin-right: 15% !important;
+    }
+    #background{
+       
+    }
+}
+    </style>
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.menu');
+            var menuIcon = document.querySelector('.menu-icon');
+
+            menu.classList.toggle('active');
+            menuIcon.classList.toggle('active');
+        }
+    </script>
+
+</head>
+<body >
+    <nav>
+        <div id="logo">
+            <img src="logo1.png" alt="">
+        </div>
+        <div id="navli">
+            <div class="menu-icon" onclick="toggleMenu()"></div>
+            <ul class="menu">
+                <li><a class="one" href="index.html">Home</a></li>
+                <li><a class="one"  href="about.html">About</a></li>
+                <li><a class="one" href="recipe.html">Recipe</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+</div>
+    </nav>
+<main>
+    <div id="background">
+    </div>
+   
+
+    <div id="grid">
+        <div  class="relative">
+            <div  class="overlay">30min</div>
+            <a href="recipes/Lomo Saltado/Lomo_Saltado.html"><img  src="recipes/Lomo Saltado/images/IMGa.jpg" alt="">
+                <div class="recipe">
+                    
+                <h2>Lomo Saltado </h2>
+               
+
+                </div>
+                </a>
+                </div>
+    <div  class="relative">
+        <div  class="overlay">30min</div>
+        <a href="recipes/Anticuchos de Corazón/Anticuchos_de_Corazón.html"><img  src="recipes/Anticuchos de Corazón/images/IMG1.jpg" alt="">
+            <div class="recipe">
+                
+            <h2>Anticuchos de Corazón </h2>
+            
+        
+            </div>
+            </a>
+            </div>
+            <div  class="relative">
+                <div  class="overlay">30min</div>
+                <a href="recipes/Causa/Causa.html"><img  src="recipes/Causa/images/causa.jpg" alt="">
+                    <div class="recipe">
+                        
+                    <h2>Causa (Potato Casserole) </h2>
+                    
+             
+                      </div>
+                </a>
+        </div>
+        <div  class="relative">
+            <div  class="overlay">30min</div>
+            <a href="recipes/Ratatouille/Ratatouille.html"><img  src="recipes/Ratatouille/Images/pexels-codrin-alex-7439978 2.jpg" alt="">
+                <div class="recipe">
+                    
+                <h2>Ratatouille </h2>
+                
+           
+                  </div>
+            </a>
+    </div>
+    </div>
+</main>
+<footer>
+    <div id="footer_group">
+        <div>
+            <h2>Subscribe</h2>
+            <p>Register for online cooking lessons with a exprianced and great chefs before it gets late </p>
+                <button>Register</button>
+        </div>
+        <div>
+            <h2>Explore</h2>
+            <ul>
+                <li><a href="">Browse All Recipe</a></li>
+                <li><a href="">Latest Recipe</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div style="border: none;">
+            <h2>Contact</h2>
+            <ul>
+            <li> <i  class="fas fa-map-marker-alt"></i> 454 Haileslase avenue Street, Nairobi,Kenya</li>
+           
+            <li> <i class="fas fa-envelope"></i> <a href="mailto:123@gmail.com">recipe@gmail.com</a></li>
+            <li><i class="fas fa-phone"></i> +254 8345 6678</li>     </ul>         
+            
+        </div>
+    </div>
+    <div id="copyright">&copy;copyright 20244 Reserved</div>
+</footer>
+<script>
+    window.embeddedChatbotConfig = {
+    chatbotId: "3L22uUnkvCqlKqVqAAlcu",
+    domain: "www.chatbase.co"
+    }
+    </script>
+    <script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="3L22uUnkvCqlKqVqAAlcu"
+    domain="www.chatbase.co"
+    defer>
+    </script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script>
+      function toggleMenu() {
+          var menu = document.querySelector('.menu');
+          var menuIcon = document.querySelector('.menu-icon');
+  
+          menu.classList.toggle('active');
+          menuIcon.classList.toggle('active');
+      }
+  </script>
+    <style>    
+      body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    width: 100%;
+  }    
+    #background{
+        background-image: url(pexels-ella-olsson-1640777.jpg);
+        height: 500px;
+      
+        background-size: cover;
+    }
+  
+  
+  .container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+  }
+  
+  h2 {
+    
+    margin-bottom: 20px;
+    color: #ff9836;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding-left: 1%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  .form-group input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  }
+  
+  
+  .form-group textarea {
+    height: 200px;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #ff9836;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 15%;
+  }
+  
+  
+   @media screen {
+    
+   }
+
+
+    </style>
+       
+</head>
+<body>
+    
+  <nav>
+    <div id="logo">
+       <img src="logo1.png" alt="">
+    </div>
+    <div id="navli">
+        <div class="menu-icon" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a class="one" href="index.html">Home</a></li>
+            <li><a class="one"  href="about.html">About</a></li>
+            <li><a class="one" href="recipe.html">Recipe</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul></div></nav>
+    <main>
+        <div id="background">
+        </div>
+   
+    <div class="container">
+        <h2>If you have anything..</h2>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+        <div id="footer_group">
+            <div>
+                <h2>Subscribe</h2>
+                <p>Register for online cooking lessons with a exprianced and great chefs before it gets late </p>
+                    <button>Register</button>
+            </div>
+            <div>
+                <h2>Explore</h2>
+                <ul>
+                    <li><a href="">Browse All Recipe</a></li>
+                    <li><a href="">Latest Recipe</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div style="border: none;">
+                <h2>Contact</h2>
+                <ul>
+                    <li> <i  class="fas fa-map-marker-alt"></i> 454 Haileslase avenue Street, Nairobi,Kenya</li>
+           
+                    <li> <i class="fas fa-envelope"></i> <a href="mailto:123@gmail.com">recipe@gmail.com</a></li>
+                    <li><i class="fas fa-phone"></i> +254 8345 6678</li>     </ul>         
+                
+            </div>
+        </div>
+        <div id="copyright">&copy;copyright 20244 Reserved</div>
+    </footer>
+    mmmmmjjjjj
+</body>
+</html>
