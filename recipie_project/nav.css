@@ -114,26 +114,20 @@ nav a{
         margin-left: 15%;
         width: 35%;
     }
-    nav{
-        background-color: rgb(3, 29, 11);
-    }
+    
 }
 @media screen and (max-width:520px){
-    nav{
-        background-color: rgb(3, 29, 11);
-    }
+    
     .menu{
         margin-left: 10%;
         width: 40%;
     }
 }
 @media screen and (max-width:480px){
-    nav{
-        background-color: rgb(29, 19, 3);
-    }
+  
     .menu{
         margin-left: 7%;
-        width: 44%;         
+        width: 45%;         
     }
 }
 
