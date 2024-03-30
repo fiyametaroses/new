@@ -97,9 +97,7 @@ nav a{
     .menu.active a:hover{
         background-color: #fba152;
     } 
-    nav{
-        background-color: rgb(3, 29, 11);
-    }  
+   
 }
 @media screen and (max-width:600px) {
    
@@ -126,7 +124,7 @@ nav a{
 @media screen and (max-width:480px){
   
     .menu{
-        margin-left: 7%;
+        margin-left: 6%;
         width: 45%;         
     }
 }
