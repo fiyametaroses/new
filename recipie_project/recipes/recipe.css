@@ -171,6 +171,7 @@ grid-row-gap: 40px;
  #image img {
     margin-left: 1%;
     margin-right: 1%;
+    height: 400px;
  }
 
    }
