@@ -48,9 +48,62 @@
     .styles{
         display: grid; grid-template-columns: repeat(2,1fr);
     }
+    .styles img {
+        width:300px; height:300px ; border-radius: 100%; margin-top: 40px; 
+       
+
+    }
+    .par2{
+        font-size: large; margin-top: 90px; margin-left:2;
+    }
     @media screen and (max-width:960px) {
         #first{background-size: cover;   }
+       
     }
+    @media screen and (max-width:850px) {
+ 
+        
+        .styles img{
+            margin-right: 1% !important;
+            width: 280px ;
+            height: 280px;
+            margin-left: 1% !important;
+        }
+        #paragraph{margin-bottom: 100px !important;}
+        .styles button{
+            margin-bottom: 30px;
+        }
+}
+
+@media screen and (max-width:680px){
+  
+        .styles img{
+           height: 220px;
+           width: 220px;
+        }
+        .styles button{
+            padding: 12px 27px;
+        }
+        
+        #paragraph{margin-bottom: 150px !important;}
+        .par2{
+            margin-top: 30px;
+        }
+}
+@media screen and (max-width:480px){
+
+ 
+ .styles img{
+           height: 200px;
+           width: 200px;
+        }
+        .styles button{
+            padding: 12px 20px;
+        }
+        .par2{
+            margin-top: 10px;
+        }
+}
 
 </style>
 <script>
@@ -86,17 +139,17 @@
             <div>
 
 
-            <div style="margin-left: 10%; margin-right: 10%; margin-top: 0; height:100px; font-size: 30px; color:#fa9c2a ; background-color:;">
-                <p style="text-align: center; ">"Peruvian cuisine is a vibrant symphony of flavors, a delightful dance of tradition and innovation that leaves a 
+            <div id="paragraph" style="margin-left: 10%; margin-right: 10%; margin-top: 0; height:100px; font-size: 30px; color:#fa9c2a ; background-color:;">
+                <p style="text-align: center; margin-bottom: 10px; ">"Peruvian cuisine is a vibrant symphony of flavors, a delightful dance of tradition and innovation that leaves a 
                 lasting impression on every palate."
 
-            </p></div>
+            </p></div><div>
                 <h1 style=" font-size: 40px; font-style: italic; text-align: center; color:#ff9638; margin-top: 50px;">Most popular Dishes</h1>
     <div class="styles">
-    <div style="margin-right: 5%; background-color: #ffc175; height: 350px;   border-radius: 0 30% 0 0;">
-        <img style="width:300px; height:300px ; border-radius: 100%; margin-top: 40px; margin-left: 35%; margin-right: 15%; " src="recipes/Causa/images/causa.jpg" alt="">
+    <div style="position: relative; margin-right: 5%; background-color: #ffc175; height: 350px;   border-radius: 0 30% 0 0;">
+        <img style="position: absolute;  right: 0;  margin-right: 20%;" src="recipes/Causa/images/causa.jpg" alt="">
     </div>
-    <div  style=" font-size: large; margin-top: 90px; margin-left:;">
+    <div class="par2"  >
         <h2 style="color: #ff9638;">name of that</h2>
         <p style="color: #525252;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas sunt quidem atque assumenda obcaecati
          repudiandae, nobis, architecto mollitia quos aliquid omnis ut iure ea delectus doloribus earum accusamus illo.</p>
@@ -105,17 +158,17 @@
     </div>
     <div class="styles">
        
-        <div  style=" font-size: large; margin-top: 90px; margin-left: 2%;">
+        <div class="par2">
             <h2 style="color: #ff9638;">name of that</h2>
             <p style="color:#525252;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas sunt quidem atque assumenda obcaecati
              repudiandae, nobis, architecto mollitia quos aliquid omnis ut iure ea delectus doloribus earum accusamus illo.</p>
                 <button>read more</button>
         </div>
-        <div style="background-color: #ffc175;  height: 350px;  margin-left: 5%;  border-radius: 30% 0 0 0;">
-            <img style="width:300px; height:300px ; border-radius: 100%; margin-top: 40px; margin-left:20% ; " src="recipes/Anticuchos de Corazón/images/IMG1.jpg" alt="">
+        <div style="background-color: #ffc175;  height: 350px;  margin-left: 5%;  border-radius: 30% 0 0 0; ">
+            <img style="  margin-left: 20%;" src="recipes/Anticuchos de Corazón/images/IMG1.jpg" alt="">
         </div>
 
-</div>
+</div></div>
             </div>
         </main> 
         <footer>
