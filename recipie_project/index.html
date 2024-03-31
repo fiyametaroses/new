@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="footer.css">
     <title>Document</title>
     <link rel="stylesheet" href="nav.css">
 </head>
@@ -35,6 +36,13 @@
         margin-left: 29%;
         color: black;
         font-size: larger;
+    }
+    button{
+        background-color: #ff9836;
+        color: white;
+        padding: 12px 40px;
+        font-size: 18px;
+        margin-left: 40%;
     }
     @media screen and (max-width:960px) {
         #first{background-size: cover;   }
@@ -72,9 +80,61 @@
             </div>
             </section>
             <div>
-                
+                <h1>Most popular Dishes</h1>
+    <div style="display: flex; width: ;">
+    <div style="background-color: #ffc175; height: 350px; width:45%;  border-radius: 0 30% 0 0;">
+        <img style="width:300px; height:300px ; border-radius: 100%; margin-top: 40px; margin-left: 35%; " src="recipes/Causa/images/causa.jpg" alt="">
+    </div>
+    <div  style="width: 49%; font-size: large; margin-top: 90px; margin-left: 2%;">
+        <h3 style="color: #ff9638;">name of that</h3>
+        <p style="color: #525252;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas sunt quidem atque assumenda obcaecati
+         repudiandae, nobis, architecto mollitia quos aliquid omnis ut iure ea delectus doloribus earum accusamus illo.</p>
+         <button>read more</button>
+    </div>
+    </div>
+    <div style="display: flex; width: ;">
+       
+        <div  style="width: 49%; font-size: large; margin-top: 90px; margin-left: 2%;">
+            <h3 style="color: #ff9638;">name of that</h3>
+            <p style="color:#525252;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas sunt quidem atque assumenda obcaecati
+             repudiandae, nobis, architecto mollitia quos aliquid omnis ut iure ea delectus doloribus earum accusamus illo.</p>
+                <button>read more</button>
+        </div>
+        <div style="background-color: #ff9638; height: 350px; width:45%; margin-left: 5%;  border-radius: 30% 0 0 0;">
+            <img style="width:300px; height:300px ; border-radius: 100%; margin-top: 40px; margin-left:20% ; " src="recipes/Anticuchos de Corazón/images/IMG1.jpg" alt="">
+        </div>
+
+</div>
             </div>
         </main> 
+        <footer>
+            <div id="footer_group">
+                <div>
+                    <h2>Subscribe</h2>
+                    <p>Register for online cooking lessons with a exprianced and great chefs before it gets late </p>
+                        <button>Register</button>
+                </div>
+                <div>
+                    <h2>Explore</h2>
+                    <ul>
+                        <li><a href="">Browse All Recipe</a></li>
+                        <li><a href="">Latest Recipe</a></li>
+                        <li><a href="">Terms and Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div style="border: none;">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li> <i  class="fas fa-map-marker-alt"></i> 454 Haileslase avenue Street, Nairobi,Kenya</li>
+   
+                        <li> <i class="fas fa-envelope"></i> <a href="mailto:123@gmail.com">recipe@gmail.com</a></li>
+                        <li><i class="fas fa-phone"></i> +254 8345 6678</li>          </ul>         
+                    
+                </div>
+            </div>
+            <div id="copyright">&copy;copyright 20244 Reserved</div>
+        </footer>
         
         <script>
             window.embeddedChatbotConfig = {
