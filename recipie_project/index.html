@@ -56,8 +56,70 @@
     .par2{
         font-size: large; margin-top: 90px; margin-left:2;
     }
+    #chef #h2{
+            font-size: 40px; font-style: italic; text-align: center; color:#ff9638; 
+            margin-top: 100px;
+        }
+    #grid{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            padding: 40px 8%;
+            background-color: #ffc175;
+            grid-column-gap:10px;
+            
+          
+        }
+        .relative {
+          
+            margin-bottom: 20px;
+            
+            transition: transform 0.2s ease; 
+           
+        }
+ 
+        #grid img{
+            height: 200px;
+            width: 200px;
+            border-radius: 100%;
+
+            
+        }
+        #grid a{
+            text-decoration: none;
+            color: black;
+           
+        }
+        .relative:hover {
+             transform: translateY(-8px);
+        }
+        .recipe{
+            margin: 1px 6%;
+            padding-bottom: 20px;
+
+        }
+        .recipe h3{
+            color: #ff9638;
+            line-height: 0;
+        }
+        .recipe h2{
+            line-height: 1;
+            color: #ff9638;
+        }
+        .recipe p{
+            line-height: 1.1em;
+        }
+        @media screen and (max-width:1150px){
+          #grid img{
+            width: 165px;
+            height: 165px;
+          }
+        }
     @media screen and (max-width:960px) {
-        #first{background-size: cover;   }
+        #first{background-size: cover;  
+         }
+       #grid{
+        grid-template-columns: repeat(3,1fr);
+       }
        
     }
     @media screen and (max-width:850px) {
@@ -89,10 +151,16 @@
         .par2{
             margin-top: 30px;
         }
+        
+}
+@media screen and (max-width:600px){
+#grid{
+    grid-template-columns: repeat(2,1fr);
+}
 }
 @media screen and (max-width:480px){
 
- 
+   
  .styles img{
            height: 200px;
            width: 200px;
@@ -174,7 +242,7 @@
             <h2 style="color: #ff9638;">name of that</h2>
             <p style="color:#525252;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta voluptas sunt quidem atque assumenda obcaecati
              repudiandae, nobis, architecto mollitia quos aliquid omnis ut iure ea delectus doloribus earum accusamus illo.</p>
-                <button>read more</button>
+                <a href="recipes/Anticuchos de Corazón/Anticuchos_de_Corazón.html"><button>Read More</button></a>
         </div>
         <div style="background-color: #ffc175;  height: 350px;  margin-left: 5%;  border-radius: 30% 0 0 0; ">
             <img style="  margin-left: 20%;" src="recipes/Anticuchos de Corazón/images/IMG1.jpg" alt="">
@@ -182,6 +250,65 @@
 
 </div></div>
             </div>
+            <div id="chef"><h2 id="h2" style="text-align: center;">Other chef recipes</h2>
+            <div id="grid">
+                <div  class="relative">
+                    
+                    <a href="recipes/Lomo Saltado/Lomo_Saltado.html"><img  src="recipes/Lomo Saltado/images/IMGa.jpg" alt="">
+                        <div class="recipe">
+                            
+                        <h2>Lomo Saltado </h2>
+                       
+        
+                        </div>
+                        </a>
+                        </div>
+            <div  class="relative">
+                
+                <a href="recipes/Anticuchos de Corazón/Anticuchos_de_Corazón.html"><img  src="recipes/Anticuchos de Corazón/images/IMG1.jpg" alt="">
+                    <div class="recipe">
+                        
+                    <h2>Anticuchos de Corazón </h2>
+                    
+                
+                    </div>
+                    </a>
+                    </div>
+                    <div  class="relative">
+                        
+                        <a href="recipes/Causa/Causa.html"><img  src="recipes/Causa/images/causa.jpg" alt="">
+                            <div class="recipe">
+                                
+                            <h2>Causa (Potato Casserole) </h2>
+                            
+                     
+                              </div>
+                        </a>
+                </div>
+                <div  class="relative">
+                        
+                    <a href="recipes/Causa/Causa.html"><img  src="recipes/Causa/images/causa.jpg" alt="">
+                        <div class="recipe">
+                            
+                        <h2>Causa (Potato Casserole) </h2>
+                        
+                 
+                          </div>
+                    </a>
+            </div>
+                <div  class="relative">
+                   
+                    <a href="recipes/Ratatouille/Ratatouille.html"><img  src="recipes/Ratatouille/Images/pexels-codrin-alex-7439978 2.jpg" alt="">
+                        <div class="recipe">
+                            
+                        <h2>Ratatouille </h2>
+                        
+                   
+                          </div>
+                    </a>
+            </div>
+           
+            </div></div>
         </main> 
         <footer>
             <div id="footer_group">
