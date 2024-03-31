@@ -164,4 +164,13 @@ grid-row-gap: 40px;
 .total_steps{
     display: block;
 }
+
 }
+@media screen and (max-width:480px){
+
+ #image img {
+    margin-left: 1%;
+    margin-right: 1%;
+ }
+
+   }
