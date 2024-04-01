@@ -170,11 +170,15 @@ grid-row-gap: 40px;
     #image h1 {
         font-size: 25px;
     }
+    #image{
+        width:90%;
+    }
  #image img {
     margin-left: 1%;
     margin-right: 1%;
     height: 400px;
     width: 100%;
+
  }
 
    }
